@@ -61,3 +61,11 @@ console.log(secondaryFunc(age))
 console.log(add(age, age))
 console.log(add(hobby1, hobby2))
 console.log(add(hobbies[0], hobbies[1]))
+  
+  
+var cat = document.getElementById('cat')
+console.log(cat)
+console.log(cat.innerText)
+console.log(cat.innerHTML)
+cat.innerHTML = ''
+cat.innerHTML = '<h1>고양이가 어디갔지???</h1>'
