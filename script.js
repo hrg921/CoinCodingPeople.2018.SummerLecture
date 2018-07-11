@@ -48,3 +48,16 @@ console.log(hobbies[0])
 for (hobby of hobbies) {
   console.log(hobby)
 }
+
+function secondaryFunc(x) {
+  return x * x;
+}
+
+function add(x1, x2) {
+  return x1 + x2;
+}
+
+console.log(secondaryFunc(age))
+console.log(add(age, age))
+console.log(add(hobby1, hobby2))
+console.log(add(hobbies[0], hobbies[1]))
