@@ -1,13 +1,27 @@
-h1 {
-  font-size: 100px;
-  font-family: serif;
-}
 strong {
   color: red;
 }
+
 div {
   background: yellow;
 }
+
 span {
   background: skyblue;
+}
+
+.big {
+  font-size: 100px;
+}
+
+#cat {
+  font-family: serif;
+}
+
+ol {
+  color: green;
+}
+
+.army {
+  color: blue
 }
