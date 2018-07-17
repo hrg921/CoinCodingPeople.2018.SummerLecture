@@ -45,3 +45,16 @@ var hobbies = ['basketball', 'singing', 'coding']
 for (var i = 0; i < 3; i++) {
   document.body.innerHTML += '<h1>내 ' + (i + 1) + '번째 취미는 ' + hobbies[i] + ' 야</h1>'
 }
+
+function secondaryFunc(x) {
+  return x * x;
+}
+
+function add(x1, x2) {
+  return x1 + x2;
+}
+
+console.log(secondaryFunc(age))
+console.log(add(age, age))
+console.log(add(hobby1, hobby2))
+console.log(add(hobbies[0], hobbies[1]))
